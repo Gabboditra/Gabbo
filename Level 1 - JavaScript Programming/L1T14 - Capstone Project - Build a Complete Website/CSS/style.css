@@ -1,0 +1,45 @@
+/* Style all heading elements (h1 to h6) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightblue;
+  max-width: 800px;
+  width: 90%;
+  border: 5px solid burlywood;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style all images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: auto;
+}
+
+/* Style unordered and ordered lists */
+ul,
+ol {
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Style all paragraph elements */
+
+p {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 800px;
+}
