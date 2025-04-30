@@ -55,7 +55,8 @@ const validate = (values) => {
   return errors;
 };
 
-const Registration = () => {
+export default function Registration() {
+  
   const formik = useFormik({
     initialValues: {
       firstName: "",
@@ -140,6 +141,4 @@ const Registration = () => {
       <button type="submit">Submit</button>
     </form>
   );
-};
-
-export default Registration;
+}
