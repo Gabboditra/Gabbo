@@ -1,32 +1,35 @@
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Landing from "./Components/Landing";
 import Header from "./Components/Header";
 import Products from "./Components/Products";
 import Cart from "./Components/Cart";
 import Registration from "./Components/Registration";
-import { useState } from "react";
+import Help from './Components/Help';
 
 export default function App() {
-  const [username, setUsername] = useState("");
-  const [sum, setSum]=useState(0);
-  const [showTotal, setShowTotal]=useState(false);
+  const [username, setUsername] = useState(() => localStorage.getItem("username") || "");
+  const [sum, setSum] = useState(0);
+  const [showTotal, setShowTotal] = useState(false);
 
   return (
     <div className="App">
-      {/* Show header on all pages */}
-      <Header username={username} />
+      <Header username={username} setUsername={setUsername} />
 
-      {showTotal && <Products sum={sum} />}
+      <div className="container mt-4">
+        <h1 className="text-primary mb-4">Amazon Clone</h1>
 
-      {/* Main content with routes */}
-      <Routes>
-        <Route path="/Products" element={<Products />} />
-        <Route path="/Registration" element={<Registration />} />
-        <Route path="/Cart" element={<Cart setSum={setSum} setShowTotal={setShowTotal} />} />
-        <Route path="/" element={<Landing />} /> {/* optional route to homepage */}
-      </Routes>
+        {showTotal && <p className="lead">Cart Total: ${sum.toFixed(2)}</p>}
+
+        <Routes>
+          <Route path="/Products" element={<Products setSum={setSum} setShowTotal={setShowTotal} />} />
+          <Route path="/Registration" element={<Registration setUsername={setUsername} />} />
+          <Route path="/Cart" element={<Cart sum={sum} />} />
+          <Route path="/Help" element={<Help />} />
+          <Route path="/" element={<Landing setUsername={setUsername} />} />
+        </Routes>
+      </div>
     </div>
   );
 }
