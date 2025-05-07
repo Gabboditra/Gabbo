@@ -1,136 +1,104 @@
 # Gabriele Di Trapani - Junior Web Developer Portfolio
 
-Welcome to my GitHub repository! I am a Junior Web Developer with a passion for designing, developing, and maintaining responsive websites and web applications. This repository contains a collection of my personal and collaborative projects, highlighting my skills in **HTML**, **CSS**, **JavaScript**, **React**, **Node.js**, **Express**, and **MongoDB**.
+Welcome to my web development portfolio! This repository showcases a collection of my personal projects that demonstrate my skills in **front-end** and **back-end** development. I have worked with **HTML**, **CSS**, **JavaScript**, **React**, **Node.js**, **Express**, and **MongoDB**, and am always looking to expand my knowledge and improve my skills.
+
+## Table of Contents
+
+- [Skills](#skills)
+- [Technologies](#technologies)
+- [Projects](#projects)
+- [Project Details](#project-details)
+- [Accomplishments](#accomplishments)
+- [Contact](#contact)
 
 ---
 
-## Contact Information
+## Skills
 
-- **Location**: Preston, UK
-- **Phone**: (+49)15901531031
-- **Email**: [gabdtr@hotmail.it](mailto:gabdtr@hotmail.it)
-- **LinkedIn**: [Gabriele Di Trapani](https://www.linkedin.com/in/gabriele-di-trapani)
-- **GitHub**: [Gabbo](https://github.com/Gabbo)
-
----
-
-## About Me
-
-I am a dedicated and results-driven web developer, focused on delivering high-end digital solutions. My technical expertise includes front-end technologies like **HTML**, **CSS**, **JavaScript**, and **React**, as well as back-end technologies like **Node.js**, **Express**, **MongoDB**, and **Mongoose**. I am committed to improving user experience and functionality by leveraging **user-centered design** and **performance optimization**. 
-
----
-
-## Key Skills
-
-### **Technical Skills**:
-- **Front-end**: HTML, CSS, JavaScript, React
-- **Back-end**: Node.js, Express, MongoDB, Mongoose, Next.js
+- **Front-End Development**: HTML, CSS, JavaScript, React
+- **Back-End Development**: Node.js, Express, MongoDB, Mongoose
 - **Version Control**: Git, GitHub
-- **Problem-Solving**: Analytical thinking, performance optimization
-- **User-Centered Design**: UX/UI principles
-
-### **Soft Skills**:
-- Analytical thinking
-- Effective communication
-- Adaptability
-- Problem-solving
-- Collaboration
+- **Problem-Solving**: Analytical thinking, data manipulation, debugging
+- **User-Centered Design**: UX/UI principles, responsive design
+- **Performance Optimization**: Code efficiency, responsive web pages
 
 ---
 
-## Experience
+## Technologies
 
-### **HyperionDev - Full-Stack Web Development Bootcamp**
-*03/2025 - Present*
-- Work with the ‘full stack’ of web technologies to build both the front- and back-ends of websites and web applications.
-- Achieved an overall grade average of 99% for the bootcamp tasks.
-- Mastered JavaScript programming, improving efficiency in data manipulation and analysis.
-- Gained hands-on experience with key web development libraries.
-- Successfully completed five practical, real-world projects, including:
-  - [Personal Budgeting App (JavaScript)](insert-link)
-  - [Web Development Course Project (React)](insert-link)
-
----
-
-### **Previous Experience**
-- **KWS**: Key User - Master Data Management
-  - Led ERP to S/4HANA migration and enhanced data integration and quality processes.
-- **KPMG**: Inhouse Consultant HCM
-  - Provided technical support for SAP HR modules and managed employee tickets.
-- **BASF**: Senior Payroll & Personnel Administration Specialist – Italy & Spain
-  - Managed payroll and personnel administration for 1200+ employees.
-- **Bet365**: Italian Speaking Customer Service Advisor
-  - Specialized in fraud prevention and database management.
-
----
-
-## Education
-
-- **Full-Stack Web Development Bootcamp**, University of Manchester (in collaboration with HyperionDev)  
-  *03/2025 - Present*
-
-- **Master's Degree in Human Resources Management**, Universidad Camilo José Cela (in collaboration with EUDE Business School)  
-  *01/2020 - 01/2021*
-
-- **Bachelor's Degree in Linguistic and Cultural Mediation Sciences**, Università degli Studi di Palermo  
-  *08/2012 - 02/2016*
-
-- **Secondary School Diploma in Tourism Studies**, Mario Rutelli Tourism Institute  
-  *08/2007 - 06/2012*
+- **Languages**: JavaScript, HTML, CSS
+- **Frameworks & Libraries**: React, Node.js, Express, Next.js
+- **Database**: MongoDB, Mongoose
+- **Tools**: Git, GitHub, npm
+- **Other**: APIs, REST, JSON
 
 ---
 
 ## Projects
 
-### **1. Personal Budgeting App (JavaScript)**  
-- Independently developed a personal budgeting application to enhance financial planning.  
-- [View Project](insert-link)
+Here are some of the key projects I've worked on that demonstrate my skills in web development.
 
-### **2. Web Development Course Project (React)**  
-- Collaborated with peers to create a responsive web application using React.  
-- [View Project](insert-link)
+### 1. **Personal Budgeting App (JavaScript)**
+- A web-based application designed to help users manage their personal finances.
+- **Key Features**:
+  - Add, edit, and delete expenses.
+  - View total expenditure and balance.
+  - Simple and intuitive interface.
+- **Technologies Used**: JavaScript, HTML, CSS.
 
-### **3. Example Project Title**  
-- Description of another project, e.g., a React or Node.js project.  
-- [View Project](insert-link)
+  [View Project](insert-link)
 
-### **4. Another Example Project**  
-- Description of another project that highlights a specific skill or technology.  
-- [View Project](insert-link)
+### 2. **Web Development Course Project (React)**
+- A responsive web application built as part of my bootcamp course using React.
+- **Key Features**:
+  - Dynamic user interface with React components.
+  - Integrated forms and API calls.
+  - Responsive design.
+- **Technologies Used**: React, JavaScript, CSS.
+
+  [View Project](insert-link)
+
+### 3. **API Exploration with Swagger UI**
+- Used Swagger UI to interact with the Petstore API, sending GET and POST requests.
+- **Key Features**:
+  - Explore APIs using Swagger UI.
+  - Send GET and POST requests to retrieve and modify data.
+- **Technologies Used**: Swagger UI, JavaScript.
+
+  [View Project](insert-link)
+
+---
+
+## Project Details
+
+### Personal Budgeting App
+This project was designed to help users manage their finances effectively. It allows users to input their expenses and categorize them, providing an overview of their financial situation. It was created using **JavaScript**, **HTML**, and **CSS**.
+
+---
+
+### Web Development Course Project (React)
+This project showcases my understanding of **React** and building responsive web applications. It includes the ability to dynamically fetch and display data, as well as handle form inputs and API calls.
 
 ---
 
 ## Accomplishments
 
-- Successfully applied analytical skills from my previous roles to resolve complex web development issues.
-- Completed various online courses in **HTML**, **CSS**, and **JavaScript** to strengthen foundational web development knowledge.
-- Completed **Power Automate** and **SAP HCM** courses, further enhancing my technical skills.
-- Managed large-scale global projects, automating HR processes with **SAP HCM** and integrating multiple systems.
+- **Full-Stack Web Development Bootcamp** (HyperionDev, 2025): Achieved a grade average of 99% for the bootcamp tasks.
+- Completed multiple online courses on **HTML**, **CSS**, and **JavaScript** to build a strong foundation in web development.
+- Gained hands-on experience with libraries and frameworks like **React** and **Node.js**.
 
 ---
 
-## Self Study
+## Contact
 
-- **SAP Certified Application Associate – SAP HCM with ERP 6.0 EHP7**, Cloud Formación, Madrid, Spain  
-  *01/2021 – 05/2021*
+- **Email**: [gabdtr@hotmail.it](mailto:gabdtr@hotmail.it)
+- **GitHub**: [Gabbo](https://github.com/Gabbo)
+- **LinkedIn**: [Gabriele Di Trapani](https://www.linkedin.com/in/gabriele-di-trapani)
 
----
-
-## Languages
-
-- **English**: C1
-- **Italian**: Native
-- **Spanish**: C1
-- **German**: C1
-- **French**: B2
-- **Polish**: B1
+Feel free to reach out to discuss potential collaborations or projects!
 
 ---
 
-## References
+## License
 
-Available upon request.
-
----
-
-Feel free to explore my projects and get in touch for any questions or collaborations. Let's build something great together!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
