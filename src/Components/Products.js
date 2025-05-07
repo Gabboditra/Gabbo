@@ -2,18 +2,18 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { useDispatch } from "react-redux";
+import { addItem } from "../slices/cartSlice";
 
-export default function Products({ setSum, setShowTotal }) {
+// Displays product items with "Buy" button to add to cart
+export default function Products() {
   const location = useLocation();
   const state = location.state;
   const username = state?.username || localStorage.getItem("username");
+  const dispatch = useDispatch();
 
-  const handleBuy = (price) => {
-    setSum((prevSum) => prevSum + price);
-    setShowTotal(true);
-  };
-
-  const items = [
+   // Array of Products
+   const items = [
     {
       img: "https://pngimg.com/d/headphones_PNG7645.png",
       title: "Wireless Headphones",
@@ -78,14 +78,21 @@ export default function Products({ setSum, setShowTotal }) {
     },
   ];
 
+  // Adds item to Redux cart
+  const handleBuy = (item) => {
+    dispatch(addItem(item));
+    alert(`${item.title} added to cart.`);
+  };
+
+  // Map each item to a Bootstrap card
   const itemsList = items.map((item) => (
     <Card style={{ width: "18rem", margin: "1rem" }} key={item.title}>
       <Card.Img variant="top" src={item.img} alt={item.title} />
       <Card.Body>
         <Card.Title>{item.title}</Card.Title>
-        <Card.Text>${item.price}</Card.Text>
+        <Card.Text>${item.price.toFixed(2)}</Card.Text>
         <Card.Text>{item.description}</Card.Text>
-        <Button onClick={() => handleBuy(item.price)}>Buy</Button>
+        <Button onClick={() => handleBuy(item)}>Buy</Button>
       </Card.Body>
     </Card>
   ));

@@ -2,6 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 
+// Field validation rules
 const validate = (values) => {
   const errors = {};
   const fields = [
@@ -12,6 +13,7 @@ const validate = (values) => {
     { field: "password", label: "Password", minLength: 10 },
   ];
 
+  // Validation errors check
   fields.forEach(({ field, label, maxLength, minLength, alphaOnly }) => {
     const value = values[field];
 
@@ -42,6 +44,7 @@ const validate = (values) => {
   return errors;
 };
 
+// Registration form
 export default function Registration({ setUsername }) {
   const navigate = useNavigate();
 

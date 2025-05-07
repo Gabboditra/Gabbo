@@ -1,6 +1,7 @@
 import { NavLink, Link, useNavigate } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
+// Navigation header with logout and routing links
 export default function Header({ username, setUsername }) {
   const navigate = useNavigate();
 

@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 
+// Login form validation
 const validate = (values) => {
   const errors = {};
   if (!values.email) {
@@ -19,6 +20,7 @@ const validate = (values) => {
   return errors;
 };
 
+// Login form for landing page
 export default function Landing({ setUsername }) {
   const navigate = useNavigate();
   const inputRef = useRef(null);

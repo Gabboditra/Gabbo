@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setShipment } from '../slices/cartSlice';
 import { Link } from 'react-router-dom';
 
+// Cart page displaying items and shipping options
 export default function Cart() {
   const { items, shipment } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
@@ -12,6 +13,8 @@ export default function Cart() {
   return (
     <div>
       <h2>Your Cart</h2>
+      
+       {/* Display all items */}
       {items.map((item) => (
         <div key={item.title} className="mb-3">
           <p>
@@ -19,6 +22,8 @@ export default function Cart() {
           </p>
         </div>
       ))}
+
+        {/* Shipping options */}
       <label htmlFor="shipment">Shipping Method:</label>
       <select
         id="shipment"

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// help section for shipping info
 export default function Help() {
   return (
     <div className="p-3">
