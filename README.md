@@ -33,59 +33,65 @@ Welcome to my web development portfolio! This repository showcases a collection 
 - **Other**: APIs, REST, JSON
 
 ---
+## 🌟 **Projects**
 
-## Projects
+### 1. **Full-Stack Car Inventory App**
+Manage vehicle data with a modern web interface and powerful back-end.
 
-Here are some of the key projects I've worked on that demonstrate my skills in web development.
+- **Features**: Add/update/delete/search cars, filter by age, organized models/controllers
+- **Tech**: React, Express, MongoDB, Mongoose, Node.js
 
-### 1. **Personal Budgeting App (JavaScript)**
-- A web-based application designed to help users manage their personal finances.
-- **Key Features**:
-  - Add, edit, and delete expenses.
-  - View total expenditure and balance.
-  - Simple and intuitive interface.
-- **Technologies Used**: JavaScript, HTML, CSS.
+### 2. **Capstone: iTunes Search App**
+A full-stack search app that fetches media data using the iTunes API.
 
-  [View Project](insert-link)
+- **Features**: Search, filter media, JWT-protected endpoints, responsive UI
+- **Tech**: React, Node.js, Express, JWT, iTunes API
 
-### 2. **Web Development Course Project (React)**
-- A responsive web application built as part of my bootcamp course using React.
-- **Key Features**:
-  - Dynamic user interface with React components.
-  - Integrated forms and API calls.
-  - Responsive design.
-- **Technologies Used**: React, JavaScript, CSS.
+### 3. **Weather Forecast App**
+A real-time weather app using the weatherapi.com API.
 
-  [View Project](insert-link)
+- **Features**: City search, weather display, optional geolocation
+- **Tech**: React, JavaScript, API Integration
 
-### 3. **API Exploration with Swagger UI**
-- Used Swagger UI to interact with the Petstore API, sending GET and POST requests.
-- **Key Features**:
-  - Explore APIs using Swagger UI.
-  - Send GET and POST requests to retrieve and modify data.
-- **Technologies Used**: Swagger UI, JavaScript.
+### 4. **Pokémon API App**
+Interactive app that fetches Pokémon data using Promises.
 
-  [View Project](insert-link)
+- **Features**: Fetch and display name, weight, and abilities
+- **Tech**: JavaScript, Fetch API, HTML/CSS
+
+### 5. **Developer Portfolio & Ordering System**
+A dual-purpose project to showcase developer profile and API-driven restaurant orders.
+
+- **Features**: Profile, services, and live ordering with TheMealDB API
+- **Tech**: JavaScript, HTML, CSS, API
 
 ---
 
-## Project Details
+## 🔍 **Project Details**
 
-### Personal Budgeting App
-This project was designed to help users manage their finances effectively. It allows users to input their expenses and categorize them, providing an overview of their financial situation. It was created using **JavaScript**, **HTML**, and **CSS**.
+### **Full-Stack Car Inventory App**
+A complete CRUD application with a React front-end and Node/Express back-end connected to MongoDB. Includes features like editing multiple entries, age-based filtering, and clean architecture.
+
+### **iTunes Search App (Capstone)**
+Users can search media from iTunes, and results are displayed dynamically. The backend handles API communication and secures routes using JWT.
+
+### **Weather Forecast App**
+Users can search for any city and retrieve detailed weather data. Built with API documentation, it highlights modern UI design and API integration skills.
+
+### **Pokémon API App**
+An educational app that fetches and displays Pokémon details using JavaScript promises. It shows asynchronous handling, API integration, and dynamic DOM updates.
+
+### **Developer Portfolio & Ordering System**
+An online profile page with a built-in restaurant ordering system, demonstrating multi-purpose design and JavaScript-driven API functionality.
 
 ---
 
-### Web Development Course Project (React)
-This project showcases my understanding of **React** and building responsive web applications. It includes the ability to dynamically fetch and display data, as well as handle form inputs and API calls.
+## 🏆 **Accomplishments**
 
----
-
-## Accomplishments
-
-- **Full-Stack Web Development Bootcamp** (HyperionDev, 2025): Achieved a grade average of 99% for the bootcamp tasks.
-- Completed multiple online courses on **HTML**, **CSS**, and **JavaScript** to build a strong foundation in web development.
-- Gained hands-on experience with libraries and frameworks like **React** and **Node.js**.
+- **HyperionDev Full-Stack Web Development Bootcamp (2025)**: Graduated with a 99% average
+- **Backend Proficiency**: Created Express and MongoDB applications with secure endpoints and CRUD functionality
+- **React Development**: Built multiple component-based projects with state management, API calls, and routing
+- **GitHub Deployment & Live Demos**: Deployed apps using GitHub and Render
 
 ---
 
